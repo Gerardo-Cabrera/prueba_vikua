@@ -1,0 +1,6 @@
+<h1>{{ book.name }}</h1>
+<p>Autor: <i>{{ book.author }}</i></p>
+<p>Fecha de publicación: <i>{{ book.publication_date }}</i></p>
+<p>
+    <a href="{% url "books:list" %}">Regresar</a>
+</p>
